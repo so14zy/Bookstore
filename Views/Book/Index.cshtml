@@ -1,0 +1,21 @@
+@using Bookstore.Models;
+@model List<Book>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Books</h2>
+<ul>
+@foreach(Book book in Model)
+{
+    <li>
+        <a asp-area="" asp-controller="Book" asp-action="Index" asp-route-id=@book.Id>
+            @book.Title
+        </a>
+        <br/>
+        <a asp-area="" asp-controller="Author" asp-action="Index" asp-route-id=@book.AuthorId>
+            by @($"{book.Author.FirstName} {book.Author.SecondName}")
+        </a>
+    </li>
+}
+</ul>

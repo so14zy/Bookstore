@@ -1,0 +1,386 @@
+[
+   {
+       "Id":"1",
+       "Title":"War and Peace",
+       "AuthorId":"1",
+       "GenreId":"1"
+   },
+   {
+       "Id":"2",
+       "Title":"Anna Karenina",
+       "AuthorId":"1",
+       "GenreId":"1"
+   },
+   {
+       "Id":"3",
+       "Title":"The Death of Ivan Ilyich",
+       "AuthorId":"1",
+       "GenreId":"1"
+   },
+   {
+       "Id":"4",
+       "Title":"Resurrection",
+       "AuthorId":"1",
+       "GenreId":"1"
+   },
+   {
+       "Id":"5",
+       "Title":"The White Guard",
+       "AuthorId":"2",
+       "GenreId":"1"
+   },
+   {
+       "Id":"6",
+       "Title":"A Young Doctors Notebook",
+       "AuthorId":"2",
+       "GenreId":"1"
+   },
+   {
+       "Id":"7",
+       "Title":"Heart of a Dog",
+       "AuthorId":"2",
+       "GenreId":"1"
+   },
+   {
+       "Id":"8",
+       "Title":"The Master and Margarita",
+       "AuthorId":"2",
+       "GenreId":"13"
+   },
+   {
+       "Id":"9",
+       "Title":"Eugene Onegin",
+       "AuthorId":"3",
+       "GenreId":"14"
+   },
+   {
+       "Id":"10",
+       "Title":"The Captain's Daughter",
+       "AuthorId":"3",
+       "GenreId":"1"
+   },
+   {
+       "Id":"11",
+       "Title":"The Queen of Spades",
+       "AuthorId":"3",
+       "GenreId":"15"
+   },
+   {
+       "Id":"12",
+       "Title":"Ruslan and Ludmila",
+       "AuthorId":"3",
+       "GenreId":"14"
+   },
+   {
+       "Id":"13",
+       "Title":"Dead Souls",
+       "AuthorId":"4",
+       "GenreId":"1"
+   },
+   {
+       "Id":"14",
+       "Title":"The Government Inspector",
+       "AuthorId":"4",
+       "GenreId":"16"
+   },
+   {
+       "Id":"15",
+       "Title":"Evenings on a Farm Near Dikanka",
+       "AuthorId":"4",
+       "GenreId":"1"
+   },
+   {
+       "Id":"16",
+       "Title":"Mirgorod",
+       "AuthorId":"4",
+       "GenreId":"15"
+   },
+   {
+       "Id":"17",
+       "Title":"Taras Bulba",
+       "AuthorId":"4",
+       "GenreId":"1"
+   },
+   {
+       "Id":"18",
+       "Title":"The Hobbit: or There and Back Again",
+       "AuthorId":"5",
+       "GenreId":"11"
+   },
+   {
+       "Id":"19",
+       "Title":"The Fellowship of the Ring",
+       "AuthorId":"5",
+       "GenreId":"11"
+   },
+   {
+       "Id":"20",
+       "Title":"The Two Towers",
+       "AuthorId":"5",
+       "GenreId":"11"
+   },
+   {
+       "Id":"21",
+       "Title":"The Return of the King",
+       "AuthorId":"5",
+       "GenreId":"11"
+   },
+   {
+       "Id":"22",
+       "Title":"A Middle English Vocabulary",
+       "AuthorId":"5",
+       "GenreId":"17"
+   },
+   {
+       "Id":"23",
+       "Title":"The Lion, the Witch and the Wardrobe",
+       "AuthorId":"6",
+       "GenreId":"11"
+   },
+   {
+       "Id":"24",
+       "Title":"Prince Caspian",
+       "AuthorId":"6",
+       "GenreId":"11"
+   },
+   {
+       "Id":"25",
+       "Title":"The Voyage of the Dawn Treader",
+       "AuthorId":"6",
+       "GenreId":"11"
+   },
+   {
+       "Id":"26",
+       "Title":"The Silver Chair",
+       "AuthorId":"6",
+       "GenreId":"11"
+   },
+   {
+       "Id":"27",
+       "Title":"The Horse and His Boy",
+       "AuthorId":"6",
+       "GenreId":"11"
+   },
+   {
+       "Id":"28",
+       "Title":"The Magician's Nephew",
+       "AuthorId":"6",
+       "GenreId":"11"
+   },
+   {
+       "Id":"29",
+       "Title":"The Last Battle",
+       "AuthorId":"6",
+       "GenreId":"11"
+   },
+   {
+       "Id":"30",
+       "Title":"Harry Potter and the Sorcerer's Stone",
+       "AuthorId":"7",
+       "GenreId":"11"
+   },
+   {
+       "Id":"31",
+       "Title":"Harry Potter and the Chamber of Secrets",
+       "AuthorId":"7",
+       "GenreId":"11"
+   },
+   {
+       "Id":"32",
+       "Title":"Harry Potter and the Prisoner of Azkaban",
+       "AuthorId":"7",
+       "GenreId":"11"
+   },
+   {
+       "Id":"33",
+       "Title":"Harry Potter and the Goblet of Fire",
+       "AuthorId":"7",
+       "GenreId":"11"
+   },
+   {
+       "Id":"34",
+       "Title":"Harry Potter and the Order of the Phoenix",
+       "AuthorId":"7",
+       "GenreId":"11"
+   },
+   {
+       "Id":"35",
+       "Title":"Harry Potter and the Half-Blood Prince",
+       "AuthorId":"7",
+       "GenreId":"11"
+   },
+   {
+       "Id":"36",
+       "Title":"Harry Potter and the Deathly Hallows",
+       "AuthorId":"7",
+       "GenreId":"11"
+   },
+   {
+       "Id":"37",
+       "Title":"It",
+       "AuthorId":"8",
+       "GenreId":"4"
+   },
+   {
+       "Id":"38",
+       "Title":"The shining",
+       "AuthorId":"8",
+       "GenreId":"4"
+   },
+   {
+       "Id":"39",
+       "Title":"The Stand",
+       "AuthorId":"8",
+       "GenreId":"4"
+   },
+   {
+       "Id":"40",
+       "Title":"Mysery",
+       "AuthorId":"8",
+       "GenreId":"4"
+   },
+   {
+       "Id":"41",
+       "Title":"Carrie",
+       "AuthorId":"8",
+       "GenreId":"4"
+   },
+   {
+       "Id":"42",
+       "Title":"A Game of Thrones",
+       "AuthorId":"9",
+       "GenreId":"11"
+   },
+   {
+       "Id":"43",
+       "Title":"A Clash of Kings",
+       "AuthorId":"9",
+       "GenreId":"11"
+   },
+   {
+       "Id":"44",
+       "Title":"A Storm of Swords",
+       "AuthorId":"9",
+       "GenreId":"11"
+   },
+   {
+       "Id":"45",
+       "Title":"A Feast for Crows",
+       "AuthorId":"9",
+       "GenreId":"11"
+   },
+   {
+       "Id":"46",
+       "Title":"A Dance with Dragons",
+       "AuthorId":"9",
+       "GenreId":"11"
+   },
+   {
+       "Id":"47",
+       "Title":"Core Java Volume I",
+       "AuthorId":"10",
+       "GenreId":"18"
+   },
+   {
+       "Id":"48",
+       "Title":"Effective Java",
+       "AuthorId":"11",
+       "GenreId":"18"
+   },
+   {
+       "Id":"49",
+       "Title":"Thus Spoke Zarathustra",
+       "AuthorId":"12",
+       "GenreId":"19"
+   },
+   {
+       "Id":"50",
+       "Title":"Beyond Good and Evil",
+       "AuthorId":"12",
+       "GenreId":"19"
+   },
+   {
+       "Id":"51",
+       "Title":"On the Genealogy of Morals",
+       "AuthorId":"12",
+       "GenreId":"19"
+   },
+   {
+       "Id":"52",
+       "Title":"The Tale of Genji",
+       "AuthorId":"13",
+       "GenreId":"1"
+   },
+   {
+       "Id":"53",
+       "Title":"I Am a Cat",
+       "AuthorId":"14",
+       "GenreId":"1"
+   },
+   {
+       "Id":"54",
+       "Title":"For Today I Am a Boy",
+       "AuthorId":"15",
+       "GenreId":"1"
+   },
+   {
+       "Id":"55",
+       "Title":"The Moon Opera",
+       "AuthorId":"16",
+       "GenreId":"1"
+   },
+   {
+       "Id":"56",
+       "Title":"The Crystal Ribbon",
+       "AuthorId":"17",
+       "GenreId":"11"
+   },
+   {
+       "Id":"57",
+       "Title":"Madonna in a Fur Coat",
+       "AuthorId":"18",
+       "GenreId":"1"
+   },
+   {
+       "Id":"58",
+       "Title":"The Little Prince",
+       "AuthorId":"19",
+       "GenreId":"1"
+   },
+   {
+       "Id":"59",
+       "Title":"The Count of Monte Cristo",
+       "AuthorId":"20",
+       "GenreId":"1"
+   },
+   {
+       "Id":"60",
+       "Title":"Twilight",
+       "AuthorId":"21",
+       "GenreId":"6"
+   },
+   {
+       "Id":"61",
+       "Title":"Eclipse",
+       "AuthorId":"21",
+       "GenreId":"6"
+   },
+   {
+       "Id":"62",
+       "Title":"Breaking Dawn",
+       "AuthorId":"21",
+       "GenreId":"6"
+   },
+   {
+       "Id":"63",
+       "Title":"New Moon",
+       "AuthorId":"21",
+       "GenreId":"6"
+   },
+   {
+       "Id":"64",
+       "Title":"The Girl with the Dragon Tattoo",
+       "AuthorId":"22",
+       "GenreId":"2"
+   }
+]

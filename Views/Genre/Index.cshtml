@@ -1,0 +1,27 @@
+﻿@using Bookstore.Models;
+@model List<Genre>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Genres</h2>
+<ul>
+@foreach(Genre genre in Model)
+{
+    <li>
+        <a asp-area="" asp-controller="Genre" asp-action="Index" asp-route-id=@genre.Id>
+            @genre.Name
+        </a>
+    </li>
+        <ul>
+        @foreach(Book book in genre.Books)
+        {
+            <li>
+                <a asp-area="" asp-controller="Book" asp-action="Index" asp-route-id=@book.Id>
+                    @book.Title
+                </a>
+            </li>
+        }
+        </ul>
+}
+</ul>

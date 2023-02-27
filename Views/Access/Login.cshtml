@@ -1,0 +1,42 @@
+@using Bookstore.Models.ViewModels;
+@model VMLogin;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <form asp-controller="Access" asp-action="Login" method="post">
+        <h1>Login</h1>
+        <input type="email" placeholder="Email" asp-for="Email"/>
+        <input type="password" placeholder="Password" asp-for="Password"/>
+
+        <label>
+            <input type="checkbox" asp-for="KeepLoggedIn" />
+            Keep me logged in
+        </label>
+        <br />
+        <button type="submit">Login</button>
+
+        @if(ViewData["ValidateMessage"] != null)
+        {
+            <br />
+            <br />
+            <label>@ViewData["ValidateMessage"]</label>
+        }
+    </form>
+    <br />
+    <br />
+    <h3>For admin account:</h3>
+    <br />
+    <h3>Email: admin@mail.com</h3>
+    <br />
+    <h3>Password: adminPassword</h3>
+</body>
+</html>

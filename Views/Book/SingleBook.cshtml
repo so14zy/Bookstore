@@ -1,0 +1,48 @@
+@using Bookstore.Models;
+@model Book;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>@Model.Title</h2>
+<h4>
+    Author: 
+    <a asp-area="" asp-controller="Author" asp-action="Index" asp-route-id=@Model.AuthorId>
+        @Model.Author.FirstName @Model.Author.SecondName
+    </a>
+</h4>
+<h4>
+    Genre: 
+    <a asp-area="" asp-controller="Genre" asp-action="Index" asp-route-id=@Model.GenreId>
+        @Model.Genre.Name
+    </a>
+</h4>
+<h4>Written: @Model.Info.DateWritten</h4>
+<h4>Price: @Model.Info.Price</h4>
+<h4>
+    Language: 
+    <a asp-area="" asp-controller="Language" asp-action="Index" asp-route-id=@Model.Info.LanguageId>
+        @Model.Info.Language.Name
+    </a>
+</h4>
+<br />
+<h4>
+@if (Model.Info.IsAvailable)
+{
+    if (User.Identity.IsAuthenticated)
+    {
+    <form asp-controller="Purchase" asp-action="Index" method="post">
+        <button type="submit">Buy</button>
+    </form>
+    }
+    else
+    {
+        <h4>The book is available. Please, log in to buy</h4>
+    }
+    
+}
+else
+{
+     <p>Not available</p>
+}
+</h4>

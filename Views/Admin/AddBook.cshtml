@@ -1,0 +1,44 @@
+@using Bookstore.Models.ViewModels;
+@model VMBook;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddBook</title>
+</head>
+<body>
+    <form asp-controller="Admin" asp-action="AddBook" method="post">
+
+        <input type="text" placeholder="Title" asp-for="Title"/>
+        <br />
+        <input type="text" placeholder="Author second name" asp-for="SecondName"/>
+        <br />
+        <input type="text" placeholder="Genre" asp-for="Genre"/>
+        <br />
+        <input type="number" placeholder="Price > 0" asp-for="Price"/>
+        <br />
+        <label>
+            <input type="checkbox" asp-for="IsAvailable"/>
+            Is book available?
+        </label>
+        <br />
+        <input type="number" placeholder="DateWritten < 2024" asp-for="DateWritten"/>
+        <br />
+        <input type="text" placeholder="Language" asp-for="Language"/>
+        <br />
+        <button type="submit">Add</button>
+
+        @if(ViewData["ValidateMessage"] != null)
+        {
+            <br />
+            <br />
+            <label>@ViewData["ValidateMessage"]</label>
+        }
+    </form>
+</body>
+</html>

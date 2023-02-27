@@ -1,0 +1,78 @@
+[
+    {
+        "Id":"1",
+        "Name":"Fiction"
+    },
+    {
+        "Id":"2",
+        "Name":"Mystery"
+    },
+    {
+        "Id":"3",
+        "Name":"Thriller"
+    },
+    {
+        "Id":"4",
+        "Name":"Horror"
+    },
+    {
+        "Id":"5",
+        "Name":"Historical"
+    },
+    {
+        "Id":"6",
+        "Name":"Romance"
+    },
+    {
+        "Id":"7",
+        "Name":"Western"
+    },
+    {
+        "Id":"8",
+        "Name":"Bildungsroman"
+    },
+    {
+        "Id":"9",
+        "Name":"Speculative Fiction"
+    },
+    {
+        "Id":"10",
+        "Name":"Science Fiction"
+    },
+    {
+        "Id":"11",
+        "Name":"Fantasy"
+    },
+    {
+        "Id":"12",
+        "Name":"Realist Literature"
+    },
+    {
+        "Id":"13",
+        "Name":"Magical Realism"
+    },
+    {
+        "Id":"14",
+        "Name":"Poetry"
+    },
+    {
+        "Id":"15",
+        "Name":"Short stories"
+    },
+    {
+        "Id":"16",
+        "Name":"Plays"
+    },
+    {
+        "Id":"17",
+        "Name":"Language"
+    },
+    {
+        "Id":"18",
+        "Name":"Textbooks"
+    },
+    {
+        "Id":"19",
+        "Name":"Philosophy"
+    }
+]
